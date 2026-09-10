@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays1;
 
 public class array_function {
     public static void update(int marks[]){
