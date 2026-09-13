@@ -10,7 +10,7 @@ public class buystock {
         }
         System.out.println("Maximum profit is : " + maxprofit);
     }
-    public static void buystock(int []nums){   //mam's app
+    public static void buystocks(int []nums){   //mam's app
        int buyprice = Integer.MAX_VALUE;
        int maxprofit = 0;
 
@@ -28,7 +28,7 @@ public class buystock {
     public static void main (String args[]){
         int stocks[] = {7,1,5,3,6,4};
         stock(stocks);
-        buystock(stocks);
+        buystocks(stocks);
 
     }
     
