@@ -28,7 +28,10 @@ public class assgn1 {
 
 //ques 4
   //done in rainwater trapping 
+//ques 5
+  // public List<List<Integer>> threesum(int nums[]){
 
+  // }
 
   
   public static void main (String args[]){
