@@ -2,7 +2,6 @@ package Sorting;
 
 public class selectionsort {
     public static void selesort(int [] nums){
-        int min = Integer.MAX_VALUE;
         for(int i=0;i<nums.length-1;i++){
             int minpos = i;
             for(int j=i+1;j<nums.length;j++){
