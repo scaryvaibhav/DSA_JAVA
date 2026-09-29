@@ -3,7 +3,7 @@ import java.util.*;
 
 public class spiralmatrix {
     public static List<Integer> spiral(int nums[][]){
-        int minRow = 0, maxRow = nums.length-1,minCol = 0,maxCol = nums[0].length-1,sum=0;
+        int minRow = 0, maxRow = nums.length-1,minCol = 0,maxCol = nums[0].length-1;
         List<Integer> sprl = new ArrayList<>();
         while(minRow<=maxRow&&minCol<=maxCol){
             //upper part top
