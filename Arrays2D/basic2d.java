@@ -19,6 +19,7 @@ public class basic2d {
             }
             System.out.println();
         }
+        sc.close();
     }
 
     
